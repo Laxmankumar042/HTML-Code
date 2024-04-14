@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p>This is a paragraph</p>
+    <b>Bold</b><br />
+    <i>Italic</i><br />
+    <u>Underline</u><br />
+    <big>Big</big><br />
+    <small>small</small><br />
+    <strike>Srike</strike><br />
+    <strong>Strong</strong>
+    <p>H<sub>2</sub>O</p>
+    <p>A<sup>n</sup>+B<sup>m</sup></p>
+    <pre>Count      more than one spaces in a paragraph</pre>
+    <hr />
+
+    <!-- Headings -->
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+    <hr />
+
+    <a href="https://google.com">Google</a><br />
+    <!--absolute link-->
+    <a href="/index2.html">My website</a><br />
+    <!--Relative link-->
+    <a href="https://google.com"
+      ><img src="download-button-2468711.webp" height="200"
+    /></a>
+    <!--clikable image-->
+    <hr />
+
+    <img src="image.png" alt="Computer image" height="230" /><br />
+    <hr />
+
+    <!-- List in HTML -->
+    <ul type="square">
+      <!--Unorder list-->
+      <li>Apple</li>
+      <ul>
+        <li>Color : red</li>
+        <li>Season : winter</li>
+      </ul>
+      <li>Mango</li>
+      <ul>
+        <li>Color : yellow</li>
+        <li>Season : summer</li>
+      </ul>
+    </ul>
+
+    <ol>
+      <!--order list-->
+      <li>Apple</li>
+      <ol type="i">
+        <li>Color : red</li>
+        <li>Season : winter</li>
+      </ol>
+      <li>Mango</li>
+      <ol type="i">
+        <li>Color : yellow</li>
+        <li>Season : summer</li>
+      </ol>
+    </ol>
+    <br />
+    <hr />
+
+    <!-- Tables in HTML -->
+    <table border="1">
+      <thead>
+        <caption>
+          STUDENT DATA
+        </caption>
+        <tr>
+          <th colspan="3">Information</th>
+          <!-- <th>Branch</th>
+            <th>Year</th> -->
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Laxman kumar</td>
+          <td>Computer Engineering</td>
+          <td rowspan="3">2k22</td>
+        </tr>
+        <tr>
+          <td>Ram kumar</td>
+          <td>Computer Engineering</td>
+        </tr>
+        <tr>
+          <td>Anshu</td>
+          <td>Computer Engineering</td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+    <hr />
+
+    <!-- Forms in HTML -->
+    <h3>REGISTRATION FORM</h3>
+    <form action="action.php">
+      <label for="101">Username:</label>
+      <input type="text" placeholder="Username" id="101" required /><br /><br />
+      <label for="102">Password:</label>
+      <input
+        type="password"
+        placeholder="password"
+        id="102"
+        required
+      /><br /><br />
+      <h4>Select Class:</h4>
+      <label for="103">
+        <input
+          type="radio"
+          name="Class"
+          value="class 10th"
+          id="103"
+          required
+        />Class X</label
+      ><br />
+      <label for="104">
+        <input type="radio" name="Class" value="class 11th" id="104" />Class
+        XI</label
+      ><br /><br />
+      <h4>Select Subject:</h4>
+      <label for="105">
+        <input
+          type="checkbox"
+          name="subject"
+          id="105"
+          value="math"
+        />Math</label
+      ><br />
+      <label for="106">
+        <input
+          type="checkbox"
+          name="subject"
+          id="106"
+          value="Physics"
+        />Physics</label
+      ><br />
+      <label for="107">
+        <input
+          type="checkbox"
+          name="subject"
+          id="107"
+          value="Chemistry"
+        />Chemistry</label
+      ><br /><br />
+      <h4>Select City:</h4>
+      <select name="City" id="108">
+        <option value="mumbai">Mumbai</option>
+        <option value="Pune">Pune</option>
+        <option value="Banglore">Banglore</option>
+        <option value="Dhanbad">Dhanbad</option>
+        <option value="Ranchi">Ranchi</option>
+        <option value="Chennai">Chennai</option>
+      </select>
+      <br /><br />
+      <textarea
+        name="feedback"
+        id="108"
+        cols="30"
+        rows="5"
+        placeholder="Give us feedback!"
+      ></textarea
+      ><br /><br />
+      <input type="reset" value="Reset" /><br /><br />
+      <input type="submit" value="Submit" /><br />
+      <hr />
+      <iframe src="https://www.wikipedia.org/" frameborder="10"></iframe>
+    </form>
+  </body>
+</html>
